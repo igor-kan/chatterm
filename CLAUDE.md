@@ -106,3 +106,62 @@ chatterm/
 - Enhanced security features
 - Offline functionality
 
+
+
+## 🧭 Claude Code Navigation
+
+### Quick Commands
+**Development Scripts:**
+- `dev`: next dev
+- `build`: next build
+- `start`: next start
+- `lint`: next lint
+- `deploy`: gh-pages -d out
+
+**Key Files:**
+- `package.json` - Dependencies and scripts configuration
+- `README.md` - Project documentation and setup guide
+- `CLAUDE.md` - Comprehensive development guide for Claude
+- `next.config.mjs` - Next.js framework configuration
+- `tailwind.config.ts` - Tailwind CSS styling configuration
+- `tsconfig.json` - TypeScript compiler configuration
+- `components.json` - shadcn/ui components configuration
+- `manifest.json` - Chrome extension manifest
+
+**Key Directories:**
+- `app/` - Next.js App Router pages and layouts
+- `components/` - Reusable React components
+- `lib/` - Utility functions and shared logic
+- `hooks/` - Custom React hooks
+- `public/` - Static assets (images, icons, etc.)
+- `styles/` - CSS and styling files
+
+**Claude Code Files:**
+- `.claude/project-context.md` - Project overview and structure
+- `.claude/coding-standards.md` - Development guidelines and patterns
+- `.claude/commands/` - Custom Claude commands for common tasks
+- `.claude/context/` - Domain-specific development context
+
+
+### Quick Reference
+
+**Common Tasks:**
+- Start development: `npm run dev` or `bun dev`
+- Build project: `npm run build` or `bun build`
+- Lint code: `npm run lint` or `bun lint`
+- Deploy: `npm run deploy` or `bun deploy`
+
+**File Patterns:**
+- Components: `components/**/*.tsx`
+- Pages: `app/**/*.tsx` or `pages/**/*.tsx`
+- Utilities: `lib/**/*.ts`
+- Styles: `**/*.css` or use Tailwind classes
+- Tests: `**/*.test.ts` or `**/*.spec.ts`
+
+**Development Tips:**
+- Use TypeScript for type safety
+- Follow existing component patterns
+- Utilize shadcn/ui components
+- Implement responsive design with Tailwind
+- Test changes before committing
+
