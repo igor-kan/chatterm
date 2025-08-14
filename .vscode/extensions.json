@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "bradlc.vscode-tailwindcss",
+    "ms-vscode.vscode-typescript-next",
+    "christian-kohler.path-intellisense",
+    "ms-vscode.vscode-json",
+    "formulahendry.auto-rename-tag",
+    "ms-vscode.vscode-eslint",
+    "gruntfuggly.todo-tree",
+    "eamodio.gitlens",
+    "github.copilot"
+  ],
+  "unwantedRecommendations": []
+}
